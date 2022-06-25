@@ -1,28 +1,16 @@
-import React from 'react' ;
-//   import Carousels from '../components/carousel/Carousels'
-import Profilo from '../components/layout/Profilo' ;
-
-//  import Banner from "../components/home/Banner"
+import CarouselFull from '../components/home/CarouselFull'
+import Card from '../components/home/Card'
+import Profilo from '../components/layout/Profilo'
 
 const Home = () => {
-    
-    return( 
 
-        <div >
-
+    return (
+        <div>
             <h2> Home </h2>
-
-               <Profilo />
-
-            {/* <Carousels /> */}
-
-
-            {/*  
-            <Banner />
-            Prodotti Frequenti
-            Recensioni
-            */}
-        </div>   
+            <Profilo />
+            <CarouselFull />
+            <Card />
+        </div>
     )
 }
 

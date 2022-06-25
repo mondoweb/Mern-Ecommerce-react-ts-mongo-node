@@ -1,13 +1,9 @@
 import Searchbar from "./Searchbar"
 // import Logo from "../../assets/logo/logo_transparent.png"
-import {logo} from "../../assets/js/logo"
+import { logo } from "../../assets/js/logo"
 import { ClipboardCheckIcon, ShoppingCartIcon, UserIcon } from "@heroicons/react/outline"
+import { Link } from "react-router-dom"
 import './styles/Navbar.css'
-
-import {BrowserRouter as Router,  Routes, Route , Link   } from "react-router-dom";
-import Home from "../../pages/Home";
-import  Products from "../../pages/Products"  ;
-import ErrorPage from "../../pages/ErrorPage";
 
 // import { icons } from "../../assets/logo/js/icons_navBar"
 
@@ -49,27 +45,15 @@ const Navbar = () => {
                 <img src={logo} alt="logo" />
             </div>
             <div className="nav-Link" >
-                
-            <Router>
 
                 <nav className="navbar-link">
 
-                {/* <Link 
+                    {/* <Link 
                       to={menu.title}  key={menu.title} > {menu.name}
                 </Link> */}
-                    <Link  to="/">  Home  </Link>
-                    <Link  to="/Products">  Prodotti   </Link>
-                    
+                    <Link to="/">  Home  </Link>
+                    <Link to="/products">  Prodotti   </Link>
                 </nav>
-
-                <Routes >
-                    <Route path="/"   element={<Home />} />  
-                    <Route path="/Products"   element={<Products />}  /> 
-                    <Route path="*"   element={<ErrorPage />} />    
-                </Routes>
-
-            </Router>
-
             </div>
             <div className="nav-item">
                 <Searchbar />
