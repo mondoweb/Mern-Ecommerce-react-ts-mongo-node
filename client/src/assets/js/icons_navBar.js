@@ -1,4 +1,4 @@
-
+import { ClipboardCheckIcon, ShoppingCartIcon, UserIcon } from "@heroicons/react/outline"
 
 export const icons = [
     {
