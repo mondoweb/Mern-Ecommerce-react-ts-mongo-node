@@ -1,0 +1,69 @@
+/*  for pop-out che appare sempre associato al Carousel  */
+#js-licensing {
+  display: none;
+}
+
+.control-container {
+  /* background: rgb(185, 181, 181); */
+  margin: 10px 0;
+  padding: 10px 0;
+  box-shadow: var(--bshadw);
+}
+
+/* .top-img {
+    background-color: black;
+} */
+
+.img-container > img {
+  display: flex;
+  height: 600px !important;
+  width: 90% !important;
+
+  max-width: 100%;
+  margin: 0 auto 30px;
+}
+
+.img-caption {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.e-carousel .e-carousel-navigators .e-previous .e-btn:not(:disabled),
+.e-carousel .e-carousel-navigators .e-next .e-btn:not(:disabled),
+.e-carousel .e-carousel-navigators .e-play-pause .e-btn:not(:disabled) {
+  background-color: red;
+}
+
+.e-carousel .e-carousel-navigators .e-previous .e-btn:not(:disabled):hover,
+.e-carousel .e-carousel-navigators .e-next .e-btn:not(:disabled):hover,
+.e-carousel .e-carousel-navigators .e-play-pause .e-btn:not(:disabled):hover {
+ background-color: rgb(25, 236, 120);
+}
+
+.e-carousel .e-carousel-navigators .e-previous .e-btn:not(:disabled):focus,
+.e-carousel .e-carousel-navigators .e-next .e-btn:not(:disabled):focus,
+.e-carousel .e-carousel-navigators .e-play-pause .e-btn:not(:disabled):focus {
+    background-color: rgb(25, 236, 120);
+}
+
+
+
+@media screen and (max-width: 768px)  {
+
+    .img-container > img {
+       height: 80vw !important;
+       width: 80vw !important;
+    }
+
+    .e-carousel .e-carousel-navigators .e-previous .e-btn:not(:disabled),
+.e-carousel .e-carousel-navigators .e-next .e-btn:not(:disabled),
+.e-carousel .e-carousel-navigators .e-play-pause .e-btn:not(:disabled) {
+  display: none;
+}
+
+.img-caption {
+    font-size: 10vw;
+}
+
+}

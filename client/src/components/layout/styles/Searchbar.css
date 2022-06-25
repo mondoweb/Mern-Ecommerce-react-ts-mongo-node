@@ -1,5 +1,6 @@
 .searchbar {
     display: flex; 
+    
     padding: 0.5rem; 
     background-color: #F3F4F6; 
     color: #1F2937; 
@@ -7,6 +8,7 @@
     width: 24rem; 
     border-radius: 0.5rem; 
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); 
+ 
 }
 
 .searchbar input {
@@ -20,4 +22,12 @@
 .searchbar-icon {
     color: #9CA3AF; 
     height: 1.5rem; 
+}
+
+
+@media screen and (max-width: 600px)  {
+.searchbar {
+    /* width: 14rem; */
+    display: none;
+}
 }

@@ -1,0 +1,42 @@
+
+.FormLogin {
+    width: 500px;
+    height: 200px;
+   padding: 10px;
+   margin: 10px;
+   box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1), 1px 1px 2px 1px rgba(0, 0, 0, 0.06); 
+
+}
+
+.navbar-login{
+    display: flex; 
+    padding-top: 30px;
+
+}
+
+.navbar-login a {
+    text-decoration: none;
+    padding: 0 20px ;
+    color: var(--color-Link_nav);
+}
+
+
+
+
+
+@media screen and (max-width: 500px)  {
+   
+    .FormLogin {
+        width: 80vw;
+    
+    }
+    
+    .navbar-login    {
+     display: flex;
+     flex-direction: column;
+    
+    }
+    .navbar-login > a    {
+     padding: 5px 0;
+    }
+}
