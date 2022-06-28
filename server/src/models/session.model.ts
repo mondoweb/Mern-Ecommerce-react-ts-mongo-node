@@ -1,5 +1,6 @@
 import { Document, model, Schema } from 'mongoose'
-import { UserDocument } from './user.model.ts'
+import { UserDocument } from './user.model';
+
 
 export interface SessionDocument extends Document {
     user: UserDocument['_id']
@@ -21,8 +22,11 @@ const sessionSchema = new Schema({
     userAgent: {
         type: String
     }
-}, { timestamps: true })
+}, { timestamps: true });
 
-const Session = model<SessionDocument>('Session', sessionSchema)
 
-export default Session
+
+const Session = model<SessionDocument>('Session', sessionSchema) ;
+
+
+export default Session ;

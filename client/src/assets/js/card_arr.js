@@ -1,8 +1,8 @@
 export const card_main = [
   {
-    title: "Guatemala",
-    img: " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQtszPTZ2mLKwjE4Fjepc_0boBcArOsFQozw&usqp=CAU",
-    description: "Modello Nike",
+    title: "1978",
+    img: " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh8lAPh-RPQprxdC54HfwZW7ZRrs2RVNQCMpsVvm8KwNrBd6T3vNweYUr8_ErC3dojREI&usqp=CAU",
+    description: " Sneakers",
   },
   {
     title: "Nike",

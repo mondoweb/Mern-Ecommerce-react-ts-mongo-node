@@ -1,39 +1,36 @@
 .scrolling-wrapper {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    margin: 40px 0;
-    padding: 10px ;
-   
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin: 40px 0;
+  padding: 10px;
 }
-    .card {
-      display: inline-block;
-      width: 20%;
-      margin: 0 10px;
-      text-align: center;
-      height: 180px ;
-      padding: 5px;
-      box-shadow: var(--bshadw);
-    }
-    .card > img {
-      height: 100% ;
-      max-width: 100%;
-    }
-
-    .container-card > h4 {
-      padding: 5px 0;
-    }
 
 
-  @media screen and (max-width: 768px)  {
-         
-    .card {
-      display: flex;
-      width: 90%;
-      flex-direction: column;
-      margin: 10px auto;
-    }
+.cardAll {
+  display: inline-block;
+  width: 20%;
+  margin: 0 10px;
+  text-align: center;
+  height: 180px;
+  padding: 5px;
+  box-shadow: var(--bshadw);
+} 
 
-    
+.cardAll > img {
+  height: 100%;
+  max-width: 100%;
+}
 
-    }
+.container-card > h4 {
+  padding: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .cardAll {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    margin: 10px auto;
+  }
+}

@@ -1,0 +1,19 @@
+
+
+.login 
+, .register
+ , .logout {
+    display: flex;
+    flex-direction: column;
+     padding-top: 15px;
+    gap: 10px 10px ;
+}
+
+
+
+.login  input , .login button 
+, .register  input  , .register button {
+    padding: 5px;
+    width: 80%;
+    margin:  auto;
+}

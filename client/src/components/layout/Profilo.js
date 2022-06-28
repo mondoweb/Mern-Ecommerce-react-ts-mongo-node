@@ -5,16 +5,15 @@ import Modal from './Modal';
 
 
 const Profilo = () => {
-
+  
   const [modalIsOpen, setIsOpen] = useState(false);
 
   return (
-    <div>
-
-
+    <div >
+      
       <button onClick={() => setIsOpen(true)} style={{ margin: "10px" }} >  <UserIcon className="nav-icon" /> </button>
 
-      {  modalIsOpen && <Modal closeModal={setIsOpen} />}
+      {  modalIsOpen &&  <Modal  closeModal={setIsOpen} />}
 
     </div>
   )

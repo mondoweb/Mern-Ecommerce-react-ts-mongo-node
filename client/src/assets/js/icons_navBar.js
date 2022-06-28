@@ -1,9 +1,11 @@
-import { ClipboardCheckIcon, ShoppingCartIcon, UserIcon } from "@heroicons/react/outline"
+import { ClipboardCheckIcon, ShoppingCartIcon  /*, UserIn */ } from "@heroicons/react/outline"
+import Profilo from "../../components/layout/Profilo"
+
 
 export const icons = [
     {
         title: 'Profilo',
-        icon: <UserIcon className="nav-icon" />
+        icon: <Profilo className="nav-icon"  />
     },
     {
         title: 'Ordini',

@@ -152,7 +152,7 @@ const Footer = () => {
       </div>
 
       <div className=' footer_bottom' >
-        <span> saddsacaaaaaaaaaaaaaa</span>
+        <span> www.Scarpe.it</span>
         © {new Date().getFullYear()} Copyright
 
 

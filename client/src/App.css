@@ -1,11 +1,13 @@
 :root {
   --color-Link_nav: rgb(112, 112, 108);
   --bshadw: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-   --bg: rgba(243, 237, 237, 0.877);
+  --bg: rgba(243, 237, 237, 0.877);
 }
 
 
-* {
+*,
+*::before,
+*::after  {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,6 +16,11 @@
 
 body{
   background:  var(--bg);
+}
+
+.tx-pd { 
+  text-align: center;
+  padding: 10px;
 }
 
 /*   Carousell full */

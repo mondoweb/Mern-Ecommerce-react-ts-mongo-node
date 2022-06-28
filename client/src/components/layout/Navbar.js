@@ -15,9 +15,9 @@ const Navbar = () => {
 
                 <nav className="navbar-link">
 
-                    {/* <Link 
-                      to={menu.title}  key={menu.title} > {menu.name}
-                </Link> */}
+    {/* <Link 
+            to={menu.title}  key={menu.title} > {menu.name}
+        </Link> */}
                     <Link to="/">  Home  </Link>
                     <Link to="/products">  Prodotti   </Link>
                 </nav>

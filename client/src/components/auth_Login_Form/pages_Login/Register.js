@@ -1,8 +1,10 @@
 import React from 'react'
+import "./styleLogin.css"
+
 
  const  Register = ()  => {
   return (
-    <div>
+    <div className='register'>
 
 <h2> Sign up form </h2>
 
