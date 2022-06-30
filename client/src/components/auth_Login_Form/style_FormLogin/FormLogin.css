@@ -29,9 +29,18 @@
 @media screen and (max-width: 500px)  {
    
     .FormLogin {
+        background-color: rgba(37, 37, 37, 0.8);
+        opacity: 1;
         width: 80vw;
-    
-    }
+        height: 100%;
+        padding: 50px 0px 20px ;
+        color: rgb(228, 229, 230);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
     
     .navbar-login    {
      display: flex;
@@ -40,5 +49,7 @@
     }
     .navbar-login > a    {
      padding: 5px 0;
+     color: aliceblue;
+     font-size: 1.2rem;
     }
 }

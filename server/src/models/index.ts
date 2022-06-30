@@ -11,4 +11,5 @@
 // Category - title
 
 // Product
-// SubCategory - title - slug - description - price - images
+// SubCategory - title - slug - description - price - images  
+

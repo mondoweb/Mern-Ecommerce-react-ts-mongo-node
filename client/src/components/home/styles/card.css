@@ -19,11 +19,17 @@
 
 .cardAll > img {
   height: 100%;
+  
   max-width: 100%;
+}
+.cardAll .container-card {
+  color: rgb(130, 131, 133);
+  
 }
 
 .container-card > h4 {
   padding: 5px 0;
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -32,5 +38,21 @@
     width: 90%;
     flex-direction: column;
     margin: 10px auto;
+  }
+
+  .cardAll > img {
+   width: 35%;
+   /* height: 40vh; */
+   margin: 0 auto;
+  }
+}
+
+
+@media screen and (max-width: 468px) {
+  
+
+  .cardAll > img {
+   width: 65%;
+   
   }
 }

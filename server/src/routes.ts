@@ -15,31 +15,30 @@ const routes = (app: Express) => {
     // get all users --admin
     // create user - register
 
-/*   ***********  Session   *************   */
+
+/*   ***********   Session   *************   */
     // get sessions
     // get all sessions --admin
     // create session - login
     // delete session - logout
 
 
-
-
-/*   *********** Category   *************   */
+/*   ***********   Category   *************   */
     // get categories
     // create category --admin
     // delete category --admin
 
 
+/*   ***********   subCategory   *************   */
     // get subCategories
     // create subCategory --admin
     // delete subCategory --admin
 
 
+/*   ***********   Pdodotti    *************   */
     // get products
     // create product --admin
     // delete product --admin
-
-
 
     
 }

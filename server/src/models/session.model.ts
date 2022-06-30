@@ -7,7 +7,7 @@ export interface SessionDocument extends Document {
     valid: boolean
     userAgent: string
     createdAt: Date
-    updatedAt: Date
+    updatedAt: Date 
 }
 
 const sessionSchema = new Schema({

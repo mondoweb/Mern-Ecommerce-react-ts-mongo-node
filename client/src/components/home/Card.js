@@ -13,6 +13,7 @@ const Card = () => {
         <Link to="/products"  class="cardAll" key={el.title}>
           <img src={el.img} alt={el.title} />
           <div class="container-card">
+             <p> € {el.price }</p>
             <h4>
               <b>{el.title}</b>
             </h4>

@@ -5,6 +5,7 @@ import Layout from './components/layout/Layout'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Home from "./pages/Home"
 import Products from "./pages/Products"
+import ProdottoCard from './prodotto/ProdottoCard'
 // import ErrorPage from "./pages/ErrorPage" 
 
 // import Logout from './components/auth_Login_Form/pages_Login/Logout'
@@ -18,11 +19,16 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
+         
+
            {/* 
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path='/logout' element={<Logout />} /> */}
           {/* <Route path="*" element={<ErrorPage />} />  */}
+
+
+          <Route path="/prodottoCard" element={< ProdottoCard  />} />
         </Routes>
 
 

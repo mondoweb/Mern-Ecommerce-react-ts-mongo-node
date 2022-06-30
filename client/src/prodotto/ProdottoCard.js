@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/styleCard.css"
+import "./styles/style_prodottoCard.css"
 
 const ProdottoCard = () =>  {
   return ( 
@@ -15,7 +15,7 @@ const ProdottoCard = () =>  {
         <img src="http://loudandproud.it/site/wp-content/uploads/2019/02/eddie-van-halen-shoes-2.jpg"  alt=""/>
         
       </div>
-      <div class="card-label">Sneakers    <b> € 45.00 </b></div>
+      <div class="card-label">Sneakers    <b> € 65.00 </b></div>
       <div class="card-title">
         Le tue fantastiche Scarpe 
       </div>
