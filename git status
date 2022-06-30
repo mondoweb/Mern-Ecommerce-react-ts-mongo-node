@@ -1,0 +1,35 @@
+[33mcommit 955da3adedbe2195c368d6743c029410738dadb9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Tommaso <donnarumma.t@libero.it>
+Date:   Tue Jun 28 13:12:59 2022 +0200
+
+    choire: add user.model  server and update login client
+
+[33mcommit 414f1f537afe5afac02f1c7faba0ca044a77611e[m
+Author: lucadibaa <lucadibaa@protonmail.com>
+Date:   Sat Jun 25 17:35:32 2022 +0200
+
+    chore: api setup server
+
+[33mcommit fdace183a8e366de4bc474c97708a041382ae1b1[m
+Author: lucadibaa <lucadibaa@protonmail.com>
+Date:   Sat Jun 25 16:39:40 2022 +0200
+
+    fix: fs / react router
+
+[33mcommit 89a903afd2ea5dc5a296c455c2f17ec2af46355a[m
+Author: Tommaso <donnarumma.t@libero.it>
+Date:   Sat Jun 25 15:35:04 2022 +0200
+
+    chore: main and footer front end
+
+[33mcommit 55ad2cd91ffb4bf8622fe5647d18caebfc3daaf7[m
+Author: lucadibaa <lucadibaa@protonmail.com>
+Date:   Thu Jun 23 12:23:41 2022 +0200
+
+    chore: navbar
+
+[33mcommit 4a71a71182b3b56f43a43463ab2020c3686ca79b[m
+Author: lucadibaa <lucadibaa@protonmail.com>
+Date:   Wed Jun 22 11:29:52 2022 +0200
+
+    initial commit
